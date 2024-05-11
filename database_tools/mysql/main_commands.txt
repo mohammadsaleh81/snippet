@@ -1,0 +1,10 @@
+load backup large file :
+
+mysql -u username -p --force --max_allowed_packet=1G database_name < backup_file.sql
+____________________________________
+
+
+
+
+
+ 
